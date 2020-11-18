@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:gravity="center_horizontal">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_launcher_dog"
+            android:id="@+id/imgDogImage"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            style="@style/TextTitle"
+            android:id="@+id/txtDogName"
+            android:text="Dog Name"
+            app:text="Dog Name"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            style="@style/TextDetail"
+            android:id="@+id/txtDogPurpose"
+            android:text="Dog Purpose"
+            app:text="Dog Purpose"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            style="@style/TextDetail"
+            android:id="@+id/txtDogTemperament"
+            android:text="Dog Temperament"
+            app:text="Dog Temperament"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            style="@style/TextDetail"
+            android:id="@+id/txtDogLifespan"
+            android:text="Dog Lifespan"
+            app:text="Dog Lifespan"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</layout>
